@@ -3,7 +3,7 @@ body {
     overflow-x: hidden;
     margin: 0;
     padding: 0;
-    position: center;
+    position: absolute;
     
 }
 
@@ -13,6 +13,7 @@ header {
 
 #messages{
     padding-bottom: 30%;
+    position: absolute;
 }
 
 li {
