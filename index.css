@@ -38,7 +38,7 @@ li span {
 }
 
 #message-form {
-    text-align: center;
+    text-align: left;
     position: fixed;
     left: 0;
     bottom: 0;
@@ -48,7 +48,7 @@ li span {
 
 input {
     width: 50%;
-    height: 10px;
+    height: 30px;
 }
 
 button {
