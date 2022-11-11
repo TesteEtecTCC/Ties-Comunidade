@@ -40,7 +40,7 @@ li span {
 }
 
 #message-form {
-    text-align: left;
+    text-align: center;
     position: fixed;
     left: 0;
     bottom: 0;
@@ -54,7 +54,7 @@ input {
 }
 
 button {
-    width: 10%;
+    width: 20%;
     height: 38px;
     background: #FFFFFF url("img/direto.png") no-repeat right top fixed;
 }
