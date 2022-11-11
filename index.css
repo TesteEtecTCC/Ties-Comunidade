@@ -35,6 +35,7 @@ li span {
 #chat {
     width: 80%;
     margin: 0px;
+    position: absolute;
 }
 
 #message-form {
