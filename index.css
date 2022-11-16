@@ -44,12 +44,12 @@ li span {
     position: fixed;
     left: 0;
     bottom: 0;
-    width: 70%;
+    width: 50%;
     background-color: #b7b5b9;
 }
 
 input {
-    width: 50%;
+    width: 70%;
     height: 30px;
 }
 
