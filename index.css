@@ -1,9 +1,8 @@
 body {
-    background: #FFFFFF url("img/piupiu.jpeg");
     overflow-x: hidden;
     margin: 0;
     padding: 0;
-    
+    height: 0;
     
 }
 
@@ -13,7 +12,6 @@ header {
 
 #messages{
     padding-bottom: 30%;
-   
 }
 
 li {
@@ -36,15 +34,15 @@ li span {
 #chat {
     width: 80%;
     margin: 0px;
-    position: 50%;
+    position: absolute;
 }
 
 #message-form {
-    text-align: center;
+    text-align: left;
     position: fixed;
     left: 0;
     bottom: 0;
-    width: 50%;
+    width: 100%;
     background-color: #b7b5b9;
 }
 
@@ -63,9 +61,4 @@ button {
     text-align: right;
     background-color: #000000;
     margin-left: 50%;
-}
-
-.sent span {
-    margin-left: 0px;
-    color: #FF0657;
 }
