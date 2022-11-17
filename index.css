@@ -1,7 +1,9 @@
 body {
-    background-color: #f3f2f3;
+    overflow-x: hidden;
     margin: 0;
     padding: 0;
+    height: 0;
+    
 }
 
 header {
@@ -15,26 +17,28 @@ header {
 li {
     list-style-type: none;
     margin-bottom: 10px;
-    background-color: #6929ca;
+    background-color: #FF0657;
     padding: 5px;
     border-radius: 10px;
     color: white;
-    width: 50%;
+    width: 70%;
+    
 }
 
 li span {
     font-style: italic;
     font-weight: bolder;
-    color: #b5b0b9;
+    color: #F1B8C9;
 }
 
 #chat {
     width: 80%;
-    margin: auto;
+    margin: 0px;
+    position: absolute;
 }
 
 #message-form {
-    text-align: center;
+    text-align: left;
     position: fixed;
     left: 0;
     bottom: 0;
@@ -50,15 +54,16 @@ input {
 button {
     width: 25%;
     height: 38px;
+    background: #FFFFFF url("img/direto.png") no-repeat right top fixed;
 }
 
 .sent {
     text-align: right;
-    background-color: #a79cb3;
+    background-color: #000000;
     margin-left: 50%;
 }
 
 .sent span {
-    margin-left: 5px;
-    color: #6929ca;
+    margin-left: 0px;
+    color: #FF0657;
 }
