@@ -7,7 +7,7 @@ body {
 }
 
 header {
-    text-align: center;
+    text-align: left;
 }
 
 #messages{
@@ -54,7 +54,7 @@ input {
 button {
     width: 25%;
     height: 38px;
-    background: #FFFFFF url("img/direto.png") no-repeat right top fixed;
+   
 }
 
 .sent {
